@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    
+   
+
+}
+
+.container-grid{
+
+    display: grid;
+    grid-template-columns: 15% 85%;
+    
+    
+}
+
+.item-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1rem;
+    margin-top: 80px;
+   
+
+}
+
+.spacer{
+    flex: 1 1 auto;
+
+}
+
+.card-body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+.footer{
+    background-color: #212529;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: aliceblue;
+    padding-top: 10px;
+}
+
+ 
+ .btn{
+    width: 100%;
+ }
+ .card-img-top1{
+    margin-top: 100px;
+    width: 100%;
+ }
+
+ .navbar{
+    background-color: #212529;
+    color: aliceblue;
+ }
+ .navbar-brand{
+    color: aliceblue;
+ }
+ .item-grid1{
+    margin: 1rem;
+    margin-top: 44px;
+ }
+
